@@ -68,11 +68,13 @@ public class HMTest {
 					mp.put("decisionPoint", DecisionPointName);
 					mp.put("healthCheck", healthCheck);
 					mp.put("serviceName", serviceName);
-					System.out.println(i+"-> IdentityName -> "+IdentityName);
-					System.out.println(i+"-> ServerFileLocation -> "+ServerFileLocation);
-					System.out.println(i+"-> DecisionPointName -> "+DecisionPointName);
-					System.out.println(i+"-> healthCheck -> "+healthCheck);
-					System.out.println(i+"-> serviceName -> "+serviceName);
+					/*
+					 * System.out.println(i+"-> IdentityName -> "+IdentityName);
+					 * System.out.println(i+"-> ServerFileLocation -> "+ServerFileLocation);
+					 * System.out.println(i+"-> DecisionPointName -> "+DecisionPointName);
+					 * System.out.println(i+"-> healthCheck -> "+healthCheck);
+					 * System.out.println(i+"-> serviceName -> "+serviceName);
+					 */
 					hashMap.put(IdentityName, mp);
 				}
 
